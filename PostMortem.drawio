@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0" version="25.0.3">
   <diagram name="Page-1" id="nM8cbRk3KZLJgysnEEbO">
-    <mxGraphModel dx="1402" dy="1446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1802" dy="1697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -44,15 +44,15 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="u9vShqVt5peOWBlMv1Y0-14" value="Game Framework" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=0;top=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="560" y="240" width="120" height="40" as="geometry" />
+          <mxGeometry x="580" y="240" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="u9vShqVt5peOWBlMv1Y0-16" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;right=0;top=0;bottom=0;fillColor=#b0e3e6;routingCenterX=-0.5;left=0;strokeColor=#0e8088;" vertex="1" parent="1">
-          <mxGeometry x="520" y="240" width="40" height="40" as="geometry" />
+        <mxCell id="u9vShqVt5peOWBlMv1Y0-16" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;right=1;top=0;bottom=0;fillColor=#b0e3e6;routingCenterX=-0.5;left=0;strokeColor=#0e8088;" vertex="1" parent="1">
+          <mxGeometry x="520" y="240" width="60" height="40" as="geometry" />
         </mxCell>
         <mxCell id="u9vShqVt5peOWBlMv1Y0-17" value="Anatomy of a Game: &quot;The Engine&quot; as Compiled into an End-User Program" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="440" y="160" width="240" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="u9vShqVt5peOWBlMv1Y0-19" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;right=0;top=0;bottom=0;fillColor=#b0e3e6;routingCenterX=-0.5;strokeColor=#0e8088;" vertex="1" parent="1">
+        <mxCell id="u9vShqVt5peOWBlMv1Y0-19" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;right=1;top=0;bottom=0;fillColor=#b0e3e6;routingCenterX=-0.5;strokeColor=#0e8088;" vertex="1" parent="1">
           <mxGeometry x="440" y="320" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="u9vShqVt5peOWBlMv1Y0-20" value="&lt;div align=&quot;right&quot;&gt;.NET Core&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;align=right;" vertex="1" parent="1">
@@ -106,17 +106,22 @@
         <mxCell id="u9vShqVt5peOWBlMv1Y0-49" value="&lt;div&gt;As a result, the APIs provided by the levels of the engine that we create need to be cohesive with one another, as well as with the XNA Framework, and .NET Core conventions.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Say there&#39;s a class from the game framework that works with another companion class, we need to allow the user to make use of said class, but with their own implementation of the companion class, possibly even vice versa. Every layer&#39;s classes need to be independent and modular, but for architecture purposes, we can probably exclude the &quot;Core API&quot; from this - meaning we basically end up at Unity&#39;s level of abstraction.&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="420" y="-10" width="290" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="u9vShqVt5peOWBlMv1Y0-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0.25;entryDx=0;entryDy=0;dashed=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1" source="u9vShqVt5peOWBlMv1Y0-51" target="u9vShqVt5peOWBlMv1Y0-16">
+        <mxCell id="u9vShqVt5peOWBlMv1Y0-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.167;entryY=0.25;entryDx=0;entryDy=0;dashed=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1" source="u9vShqVt5peOWBlMv1Y0-51" target="u9vShqVt5peOWBlMv1Y0-16">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="500" y="260" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="530" y="260" />
+              <mxPoint x="530" y="260" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="u9vShqVt5peOWBlMv1Y0-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="u9vShqVt5peOWBlMv1Y0-16" target="u9vShqVt5peOWBlMv1Y0-5">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="510" y="260" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="540" y="270" />
-              <mxPoint x="570" y="270" />
+              <mxPoint x="540" y="280" />
+              <mxPoint x="540" y="260" />
+              <mxPoint x="570" y="260" />
             </Array>
           </mxGeometry>
         </mxCell>
