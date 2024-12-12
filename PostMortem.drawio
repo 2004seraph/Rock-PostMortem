@@ -52,7 +52,7 @@
         <mxCell id="u9vShqVt5peOWBlMv1Y0-22" value="&lt;div&gt;Visual SceneGraph Editor&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
           <mxGeometry x="240" y="240" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="u9vShqVt5peOWBlMv1Y0-32" value="Maximally, interacts with all levels of &quot;The Engine&quot;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
+        <mxCell id="u9vShqVt5peOWBlMv1Y0-32" value="The Product Implementation: maximally, it interacts with all levels of &quot;The Engine&quot;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="720" y="150" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="u9vShqVt5peOWBlMv1Y0-33" value="&lt;ul style=&quot;padding-left: 10px;&quot;&gt;&lt;li&gt;&lt;font&gt;Core Scene Representation (SceneGraph Implementation)&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font&gt;Game Object (Memory) Management&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font&gt;Program Main Loop + Event Loop&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font&gt;Framework that the User (and the actual Framework) use to create &lt;b&gt;structure &lt;/b&gt;and &lt;b&gt;behaviour &lt;/b&gt;in the game&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
