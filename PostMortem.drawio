@@ -16,7 +16,7 @@
         <mxCell id="u9vShqVt5peOWBlMv1Y0-15" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;right=1;top=0;bottom=0;fillColor=#dae8fc;routingCenterX=-0.5;left=0;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="600" y="280" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="u9vShqVt5peOWBlMv1Y0-3" value="Editor Application" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="u9vShqVt5peOWBlMv1Y0-3" value="Editor Application: &quot;The Engine&quot; as Experienced by a Developer" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="160" y="160" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="u9vShqVt5peOWBlMv1Y0-4" value="XNA Framework Implementation" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="1">
