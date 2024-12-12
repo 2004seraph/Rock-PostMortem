@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0" version="25.0.3">
   <diagram name="Page-1" id="nM8cbRk3KZLJgysnEEbO">
-    <mxGraphModel dx="658" dy="412" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="789" dy="1595" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -52,6 +52,9 @@
         <mxCell id="u9vShqVt5peOWBlMv1Y0-22" value="&lt;div&gt;Visual SceneGraph Editor&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
           <mxGeometry x="240" y="240" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="u9vShqVt5peOWBlMv1Y0-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="u9vShqVt5peOWBlMv1Y0-32" target="u9vShqVt5peOWBlMv1Y0-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="u9vShqVt5peOWBlMv1Y0-32" value="The Product Implementation: maximally, it interacts with all levels of &quot;The Engine&quot;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="720" y="150" width="160" height="40" as="geometry" />
         </mxCell>
@@ -90,6 +93,9 @@
             <mxPoint x="460" y="400" as="sourcePoint" />
             <mxPoint x="560" y="300" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="u9vShqVt5peOWBlMv1Y0-49" value="&lt;div&gt;As a result, the APIs provided by the levels of the engine that we create need to be cohesive with one another, as well as with the XNA Framework, and .NET Core conventions.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Say there&#39;s a class from the game framework that works with another companion class, we need to allow the user to make use of said class, but with their own implementation of the companion class. Every layer needs to be independent and modular, but for architecture purposes, we can probably exclude the &quot;Core API&quot; from this&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="420" y="-10" width="290" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
