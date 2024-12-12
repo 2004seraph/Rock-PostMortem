@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0" version="25.0.3">
   <diagram name="Page-1" id="nM8cbRk3KZLJgysnEEbO">
-    <mxGraphModel dx="2001" dy="722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2231" dy="866" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -180,7 +180,7 @@
           <mxGeometry x="360" y="320" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="u9vShqVt5peOWBlMv1Y0-60" value="Two Super Systems: &quot;The Engine&quot; in its entirety" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e6d0de;gradientColor=#d5739d;strokeColor=#996185;verticalAlign=middle;fontSize=19;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="160" y="500" width="520" height="80" as="geometry" />
+          <mxGeometry x="160" y="590" width="520" height="80" as="geometry" />
         </mxCell>
         <mxCell id="u9vShqVt5peOWBlMv1Y0-63" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;right=1;top=0;bottom=1;fillColor=#ffcccc;routingCenterX=-0.5;strokeColor=#36393d;left=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="320" width="40" height="40" as="geometry" />
@@ -194,8 +194,8 @@
             <mxPoint x="560" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="u9vShqVt5peOWBlMv1Y0-68" value="MK3: The Monochrome Game ToolKit" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=36;" vertex="1" parent="1">
-          <mxGeometry x="690" y="490" width="420" height="100" as="geometry" />
+        <mxCell id="u9vShqVt5peOWBlMv1Y0-68" value="MK3: The Monochrome Game ToolKit" style="text;html=1;align=right;verticalAlign=bottom;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=36;" vertex="1" parent="1">
+          <mxGeometry x="690" y="580" width="330" height="180" as="geometry" />
         </mxCell>
         <mxCell id="u9vShqVt5peOWBlMv1Y0-70" value="Content Pipeline" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="300" y="240" width="40" height="80" as="geometry" />
@@ -256,7 +256,7 @@
         <mxCell id="u9vShqVt5peOWBlMv1Y0-86" value="Allow the User to step through their code, use breakpoints, etc from within their IDE to debug their game Scripts" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="-70" y="210" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="u9vShqVt5peOWBlMv1Y0-88" value="Everything Must be Recorded as Diff-able Files" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e6d0de;gradientColor=#d5739d;strokeColor=#996185;verticalAlign=middle;fontSize=19;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="u9vShqVt5peOWBlMv1Y0-88" value="An Entire Project Must be Recorded as Diff-able Files" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e6d0de;gradientColor=#d5739d;strokeColor=#996185;verticalAlign=middle;fontSize=19;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-120" y="500" width="240" height="80" as="geometry" />
         </mxCell>
         <mxCell id="u9vShqVt5peOWBlMv1Y0-89" value="User Workspace" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -264,6 +264,12 @@
         </mxCell>
         <mxCell id="u9vShqVt5peOWBlMv1Y0-91" value="&lt;div align=&quot;center&quot;&gt;This is what needs Implementing on the deployment side&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#FF0000;fontSize=10;dashed=1;fontStyle=2" vertex="1" parent="1">
           <mxGeometry x="880" y="10" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="u9vShqVt5peOWBlMv1Y0-94" value="&lt;div&gt;Bazel Build System&amp;nbsp;&lt;/div&gt;&lt;div&gt;(For Building the Editor and Precompiled Binaries for use in Deployment)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;verticalAlign=middle;fontSize=19;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-120" y="680" width="800" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="u9vShqVt5peOWBlMv1Y0-95" value="&lt;div&gt;.NET Core Build System&lt;/div&gt;&lt;div&gt;(Orchestrated by the Editor, for a User Project)&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;verticalAlign=middle;fontSize=19;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="440" y="500" width="240" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
