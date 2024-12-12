@@ -173,7 +173,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="u9vShqVt5peOWBlMv1Y0-68" value="MK3: The Monochrome Game ToolKit" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=36;" vertex="1" parent="1">
-          <mxGeometry x="690" y="500" width="420" height="100" as="geometry" />
+          <mxGeometry x="690" y="490" width="420" height="100" as="geometry" />
         </mxCell>
         <mxCell id="u9vShqVt5peOWBlMv1Y0-70" value="Content Pipeline" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="300" y="240" width="40" height="80" as="geometry" />
