@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0" version="25.0.3">
   <diagram name="Page-1" id="nM8cbRk3KZLJgysnEEbO">
-    <mxGraphModel dx="789" dy="1595" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="952" dy="1697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -61,7 +61,7 @@
         <mxCell id="u9vShqVt5peOWBlMv1Y0-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="u9vShqVt5peOWBlMv1Y0-32" target="u9vShqVt5peOWBlMv1Y0-49">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="u9vShqVt5peOWBlMv1Y0-32" value="The Product Implementation: maximally, it interacts with all levels of &quot;The Engine&quot;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
+        <mxCell id="u9vShqVt5peOWBlMv1Y0-32" value="&lt;u&gt;&lt;b&gt;The Product Implementation&lt;/b&gt;: &lt;/u&gt;maximally, it interacts with all levels of &quot;The Engine&quot;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="720" y="150" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="u9vShqVt5peOWBlMv1Y0-33" value="&lt;ul style=&quot;padding-left: 10px;&quot;&gt;&lt;li&gt;&lt;font&gt;Core Scene Representation (SceneGraph Implementation)&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font&gt;Game Object (Memory) Management&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font&gt;Program Main Loop + Event Loop&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font&gt;Framework that the User (and the actual Framework) use to create &lt;b&gt;structure &lt;/b&gt;and &lt;b&gt;behaviour &lt;/b&gt;in the game&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
@@ -82,7 +82,7 @@
         <mxCell id="u9vShqVt5peOWBlMv1Y0-42" value="Operating" style="shape=partialRectangle;whiteSpace=wrap;html=1;right=0;top=1;bottom=1;fillColor=#d0cee2;routingCenterX=-0.5;left=1;strokeColor=#56517e;align=right;" vertex="1" parent="1">
           <mxGeometry x="440" y="440" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="u9vShqVt5peOWBlMv1Y0-45" value="&lt;div&gt;Any implementation of the Microsoft XNA Framework, the core abstraction over the .NET runtime mainly used for platform-independent asset bundling and loading, and more importantly I/O (game input, pixel buffer output, etc). Also provides the &lt;i&gt;actual &lt;/i&gt;program entry + main loop.&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Since Microsoft discontinued the original framework, there are so far two reimplementations available:&lt;/div&gt;&lt;div&gt;&lt;ul style=&quot;padding-left: 10px;&quot;&gt;&lt;li&gt;MonoGame: The &quot;original&quot;&lt;/li&gt;&lt;li&gt;XNI: A fork of MonoGame&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
+        <mxCell id="u9vShqVt5peOWBlMv1Y0-45" value="&lt;div&gt;Any implementation of the Microsoft XNA Framework, the core abstraction over the .NET runtime mainly used for platform-independent asset bundling and loading, and more importantly I/O (game input, pixel buffer output, etc). Also provides the &lt;i&gt;actual &lt;/i&gt;program entry + main loop.&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Since Microsoft discontinued the original framework, there are so far two reimplementations available:&lt;/div&gt;&lt;div&gt;&lt;ul style=&quot;padding-left: 10px;&quot;&gt;&lt;li&gt;MonoGame: The &quot;original&quot;&lt;/li&gt;&lt;li&gt;XNI: A modern fork of MonoGame&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="740" y="320" width="260" height="120" as="geometry" />
         </mxCell>
         <mxCell id="u9vShqVt5peOWBlMv1Y0-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="u9vShqVt5peOWBlMv1Y0-4" target="u9vShqVt5peOWBlMv1Y0-45">
