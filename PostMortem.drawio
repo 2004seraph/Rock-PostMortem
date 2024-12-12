@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0" version="25.0.3">
   <diagram name="Page-1" id="nM8cbRk3KZLJgysnEEbO">
-    <mxGraphModel dx="1381" dy="1966" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="789" dy="1595" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -67,7 +67,7 @@
         <mxCell id="u9vShqVt5peOWBlMv1Y0-33" value="&lt;ul style=&quot;padding-left: 10px;&quot;&gt;&lt;li&gt;&lt;font&gt;Core Scene Representation (SceneGraph Implementation)&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font&gt;Game Object (Memory) Management&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font&gt;Program Main Loop + Event Loop&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font&gt;Framework that the User (and the actual Framework) use to create &lt;b&gt;structure &lt;/b&gt;and &lt;b&gt;behaviour &lt;/b&gt;in the game&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="750" y="250" width="260" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="u9vShqVt5peOWBlMv1Y0-34" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Common abstractions over all levels below it, providing standardised, necessary services for making a game; Physics, Animation, Renderer Implementations, etc.&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="u9vShqVt5peOWBlMv1Y0-34" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Common abstractions over all levels below it, providing &lt;b&gt;standardised&lt;/b&gt;, &lt;b&gt;necessary&lt;/b&gt; services for making a game; Physics, Animation, Renderer Implementations, etc.&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="760" y="200" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="u9vShqVt5peOWBlMv1Y0-39" value="Native Engine Extensions" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
