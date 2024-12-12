@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0" version="25.0.3">
   <diagram name="Page-1" id="nM8cbRk3KZLJgysnEEbO">
-    <mxGraphModel dx="2231" dy="1966" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2001" dy="722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -32,7 +32,12 @@
           <mxGeometry x="560" y="280" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="u9vShqVt5peOWBlMv1Y0-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="u9vShqVt5peOWBlMv1Y0-9" target="u9vShqVt5peOWBlMv1Y0-32">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="700" y="220" />
+              <mxPoint x="700" y="180" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="u9vShqVt5peOWBlMv1Y0-9" value="User Code" style="shape=partialRectangle;whiteSpace=wrap;html=1;top=1;left=1;fillColor=#b0e3e6;bottom=0;strokeColor=#0e8088;" vertex="1" parent="1">
           <mxGeometry x="440" y="200" width="240" height="40" as="geometry" />
@@ -41,7 +46,12 @@
           <mxGeometry x="440" y="240" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="u9vShqVt5peOWBlMv1Y0-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="u9vShqVt5peOWBlMv1Y0-14" target="u9vShqVt5peOWBlMv1Y0-34">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="720" y="260" />
+              <mxPoint x="720" y="225" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="u9vShqVt5peOWBlMv1Y0-14" value="Game Framework" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=0;top=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="580" y="240" width="100" height="40" as="geometry" />
@@ -61,14 +71,26 @@
         <mxCell id="u9vShqVt5peOWBlMv1Y0-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="u9vShqVt5peOWBlMv1Y0-32" target="u9vShqVt5peOWBlMv1Y0-49">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="u9vShqVt5peOWBlMv1Y0-32" value="&lt;u&gt;&lt;b&gt;The Product Implementation&lt;/b&gt;: &lt;/u&gt;maximally, it interacts with all levels of &quot;The Engine&quot;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
-          <mxGeometry x="720" y="150" width="160" height="40" as="geometry" />
+        <mxCell id="u9vShqVt5peOWBlMv1Y0-32" value="&lt;u&gt;&lt;b&gt;The Product Implementation&lt;/b&gt;: &lt;/u&gt;maximally, it interacts with all levels of &quot;The Engine&quot;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="750" y="160" width="230" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="u9vShqVt5peOWBlMv1Y0-33" value="&lt;ul style=&quot;padding-left: 10px;&quot;&gt;&lt;li&gt;&lt;font&gt;Core Scene Representation (SceneGraph Implementation)&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font&gt;Game Object (Memory) Management&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font&gt;Program Main Loop + Event Loop&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font&gt;Framework that the User (and the actual Framework) use to create &lt;b&gt;structure &lt;/b&gt;and &lt;b&gt;behaviour &lt;/b&gt;in the game&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
-          <mxGeometry x="750" y="250" width="260" height="60" as="geometry" />
+        <mxCell id="u9vShqVt5peOWBlMv1Y0-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.961;exitY=0.001;exitDx=0;exitDy=0;entryX=0.85;entryY=0.997;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="u9vShqVt5peOWBlMv1Y0-33" target="u9vShqVt5peOWBlMv1Y0-91">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1000" y="60" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="u9vShqVt5peOWBlMv1Y0-34" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Common abstractions over all levels below it, providing &lt;b&gt;standardised&lt;/b&gt;, &lt;b&gt;necessary&lt;/b&gt; services for making a game; Physics, Animation, Renderer Implementations, etc.&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="760" y="200" width="240" height="40" as="geometry" />
+        <mxCell id="u9vShqVt5peOWBlMv1Y0-33" value="&lt;ul style=&quot;padding-left: 10px;&quot;&gt;&lt;li&gt;&lt;font&gt;Core Scene Representation (SceneGraph Implementation)&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font&gt;Game Object (Memory) Management&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font&gt;Program Main Loop + Event Loop&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font&gt;Framework that the User (and the actual Framework) use to create &lt;b&gt;structure &lt;/b&gt;and &lt;b&gt;behaviour &lt;/b&gt;in the game&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;strokeColor=#FF0505;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="260" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="u9vShqVt5peOWBlMv1Y0-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="u9vShqVt5peOWBlMv1Y0-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1000" y="225.04651162790697" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u9vShqVt5peOWBlMv1Y0-34" value="&lt;font&gt;Common abstractions over all levels below it, providing &lt;b&gt;standardised&lt;/b&gt;, &lt;b&gt;necessary&lt;/b&gt; services for making a game; Physics, Animation, Renderer Implementations, etc.&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#FF0000;fontSize=10;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="200" width="230" height="50" as="geometry" />
         </mxCell>
         <mxCell id="u9vShqVt5peOWBlMv1Y0-39" value="Native Engine Extensions" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
           <mxGeometry x="440" y="400" width="120" height="40" as="geometry" />
@@ -82,14 +104,14 @@
         <mxCell id="u9vShqVt5peOWBlMv1Y0-42" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;right=0;top=1;bottom=1;fillColor=#d0cee2;routingCenterX=-0.5;left=1;strokeColor=#56517e;align=right;" vertex="1" parent="1">
           <mxGeometry x="440" y="440" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="u9vShqVt5peOWBlMv1Y0-45" value="&lt;div&gt;Any implementation of the Microsoft XNA Framework, the core abstraction over the .NET runtime mainly used for platform-independent asset bundling and loading, and more importantly I/O (game input, pixel buffer output, etc). Also provides the &lt;i&gt;actual &lt;/i&gt;program entry + main loop.&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Since Microsoft discontinued the original framework, there are so far two reimplementations available:&lt;/div&gt;&lt;div&gt;&lt;ul style=&quot;padding-left: 10px;&quot;&gt;&lt;li&gt;MonoGame: The &quot;original&quot;&lt;/li&gt;&lt;li&gt;XNI: A modern fork of MonoGame&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
-          <mxGeometry x="740" y="320" width="260" height="120" as="geometry" />
+        <mxCell id="u9vShqVt5peOWBlMv1Y0-45" value="&lt;div&gt;Any implementation of the Microsoft XNA Framework, the core abstraction over the .NET runtime mainly used for platform-independent asset bundling and loading, and more importantly I/O (game input, pixel buffer output, etc). Also provides the &lt;i&gt;actual &lt;/i&gt;program entry + main loop.&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Since Microsoft discontinued the original framework, there are so far two reimplementations available:&lt;/div&gt;&lt;div&gt;&lt;ul style=&quot;padding-left: 10px;&quot;&gt;&lt;li&gt;MonoGame: The &quot;original&quot;&lt;/li&gt;&lt;li&gt;XNI: A modern fork of MonoGame&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="700" y="350" width="310" height="130" as="geometry" />
         </mxCell>
         <mxCell id="u9vShqVt5peOWBlMv1Y0-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="u9vShqVt5peOWBlMv1Y0-4" target="u9vShqVt5peOWBlMv1Y0-45">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="700" y="340" />
-              <mxPoint x="700" y="380" />
+              <mxPoint x="690" y="340" />
+              <mxPoint x="690" y="415" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -98,13 +120,13 @@
             <mxPoint x="720" y="300" as="targetPoint" />
             <mxPoint x="640" y="300" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="720" y="300" />
-              <mxPoint x="720" y="280" />
+              <mxPoint x="740" y="300" />
+              <mxPoint x="740" y="300" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="u9vShqVt5peOWBlMv1Y0-49" value="&lt;div&gt;As a result, the APIs provided by the levels of the engine that we create need to be cohesive with one another, as well as with the XNA Framework, and .NET Core conventions.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Say there&#39;s a class from the game framework that works with another companion class, we need to allow the user to make use of said class, but with their own implementation of the companion class, possibly even vice versa. Every layer&#39;s classes need to be independent and modular, but for architecture purposes, we can probably exclude the &quot;Core API&quot; from this - meaning we basically end up at Unity&#39;s level of abstraction.&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
-          <mxGeometry x="420" y="-10" width="290" height="140" as="geometry" />
+        <mxCell id="u9vShqVt5peOWBlMv1Y0-49" value="&lt;div&gt;As a result, the APIs provided by the levels of the engine that we create need to be cohesive with one another, as well as with the XNA Framework, and .NET Core conventions.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Say there&#39;s a class from the game framework that works with another companion class, we need to allow the user to make use of said class, but with their own implementation of the companion class, possibly even vice versa. Every layer&#39;s classes need to be independent and modular, but for architecture purposes, we can probably exclude the &quot;Core API&quot; from this - meaning we basically end up at Unity&#39;s level of abstraction.&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="420" width="290" height="150" as="geometry" />
         </mxCell>
         <mxCell id="u9vShqVt5peOWBlMv1Y0-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.167;entryY=0.25;entryDx=0;entryDy=0;dashed=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1" source="u9vShqVt5peOWBlMv1Y0-51" target="u9vShqVt5peOWBlMv1Y0-16">
           <mxGeometry relative="1" as="geometry">
@@ -239,6 +261,9 @@
         </mxCell>
         <mxCell id="u9vShqVt5peOWBlMv1Y0-89" value="User Workspace" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-110" y="170" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="u9vShqVt5peOWBlMv1Y0-91" value="&lt;div align=&quot;center&quot;&gt;This is what needs Implementing on the deployment side&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#FF0000;fontSize=10;dashed=1;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="880" y="10" width="140" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
