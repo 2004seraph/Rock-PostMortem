@@ -74,7 +74,7 @@
           <mxGeometry x="440" y="440" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="u9vShqVt5peOWBlMv1Y0-45" value="&lt;div&gt;Any implementation of the Microsoft XNA Framework, the core abstraction over the .NET runtime mainly used for platform-independent asset bundling and loading, and more importantly I/O (game input, pixel buffer output, etc). Also provides the &lt;i&gt;actual &lt;/i&gt;program entry + main loop.&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Since Microsoft discontinued the original framework, there are so far two reimplementations available:&lt;/div&gt;&lt;div&gt;&lt;ul style=&quot;padding-left: 10px;&quot;&gt;&lt;li&gt;MonoGame: The &quot;original&quot;&lt;/li&gt;&lt;li&gt;XNI: A fork of MonoGame&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
-          <mxGeometry x="700" y="320" width="260" height="120" as="geometry" />
+          <mxGeometry x="740" y="320" width="260" height="120" as="geometry" />
         </mxCell>
         <mxCell id="u9vShqVt5peOWBlMv1Y0-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="u9vShqVt5peOWBlMv1Y0-4" target="u9vShqVt5peOWBlMv1Y0-45">
           <mxGeometry relative="1" as="geometry" />
