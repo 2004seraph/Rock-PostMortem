@@ -74,10 +74,11 @@
         <mxCell id="u9vShqVt5peOWBlMv1Y0-32" value="&lt;u&gt;&lt;b&gt;The Product Implementation&lt;/b&gt;: &lt;/u&gt;maximally, it interacts with all levels of &quot;The Engine&quot;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fillColor=none;strokeColor=#FF00FF;" vertex="1" parent="1">
           <mxGeometry x="750" y="160" width="230" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="u9vShqVt5peOWBlMv1Y0-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.961;exitY=0.001;exitDx=0;exitDy=0;entryX=0.85;entryY=0.997;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="u9vShqVt5peOWBlMv1Y0-33" target="u9vShqVt5peOWBlMv1Y0-91">
+        <mxCell id="u9vShqVt5peOWBlMv1Y0-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.961;exitY=0.001;exitDx=0;exitDy=0;entryX=0.858;entryY=0.998;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="u9vShqVt5peOWBlMv1Y0-33" target="u9vShqVt5peOWBlMv1Y0-91">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1000" y="60" />
+              <mxPoint x="1000" y="70" />
+              <mxPoint x="1000" y="70" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -126,7 +127,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="u9vShqVt5peOWBlMv1Y0-49" value="&lt;div&gt;As a result, the APIs provided by the levels of the engine that we create need to be cohesive with one another, as well as with the XNA Framework, and .NET Core conventions.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Say there&#39;s a class from the game framework that works with another companion class, we need to allow the user to make use of said class, but with their own implementation of the companion class, possibly even vice versa. Every layer&#39;s classes need to be independent and modular, but for architecture purposes, we can probably exclude the &quot;Core API&quot; from this - meaning we basically end up at Unity&#39;s level of abstraction.&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="420" width="400" height="150" as="geometry" />
+          <mxGeometry x="430" y="20" width="400" height="120" as="geometry" />
         </mxCell>
         <mxCell id="u9vShqVt5peOWBlMv1Y0-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.167;entryY=0.25;entryDx=0;entryDy=0;dashed=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1" source="u9vShqVt5peOWBlMv1Y0-51" target="u9vShqVt5peOWBlMv1Y0-16">
           <mxGeometry relative="1" as="geometry">
@@ -263,7 +264,7 @@
           <mxGeometry x="-110" y="170" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="u9vShqVt5peOWBlMv1Y0-91" value="&lt;div align=&quot;center&quot;&gt;This is what needs Implementing on the deployment side&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#FF0000;fontSize=10;dashed=1;fontStyle=2" vertex="1" parent="1">
-          <mxGeometry x="880" y="10" width="140" height="50" as="geometry" />
+          <mxGeometry x="880" y="20" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="u9vShqVt5peOWBlMv1Y0-94" value="&lt;div&gt;Bazel Build System&amp;nbsp;&lt;/div&gt;&lt;div&gt;(For Building the Editor and Precompiled Binaries for use in Deployment)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;verticalAlign=middle;fontSize=19;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-120" y="680" width="800" height="80" as="geometry" />
