@@ -38,7 +38,7 @@
           <mxGeometry x="520" y="240" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="u9vShqVt5peOWBlMv1Y0-17" value="Anatomy of a Game: &quot;The Engine&quot; as Consumed by an End-User" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="440" y="160" width="200" height="40" as="geometry" />
+          <mxGeometry x="440" y="160" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="u9vShqVt5peOWBlMv1Y0-19" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;right=0;top=0;bottom=0;fillColor=#b0e3e6;routingCenterX=-0.5;strokeColor=#0e8088;" vertex="1" parent="1">
           <mxGeometry x="440" y="320" width="40" height="40" as="geometry" />
