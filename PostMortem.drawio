@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0" version="25.0.3">
   <diagram name="Page-1" id="nM8cbRk3KZLJgysnEEbO">
-    <mxGraphModel dx="2001" dy="1822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2231" dy="1966" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -172,8 +172,8 @@
             <mxPoint x="560" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="u9vShqVt5peOWBlMv1Y0-68" value="User Workspace" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-120" y="160" width="240" height="40" as="geometry" />
+        <mxCell id="u9vShqVt5peOWBlMv1Y0-68" value="MK3: The MonoChrome Game Toolkit" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=36;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="-100" width="420" height="100" as="geometry" />
         </mxCell>
         <mxCell id="u9vShqVt5peOWBlMv1Y0-70" value="Content Pipeline" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="300" y="240" width="40" height="80" as="geometry" />
@@ -236,6 +236,9 @@
         </mxCell>
         <mxCell id="u9vShqVt5peOWBlMv1Y0-88" value="Everything Must be Recorded as Diff-able Files" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e6d0de;gradientColor=#d5739d;strokeColor=#996185;verticalAlign=middle;fontSize=19;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-120" y="500" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="u9vShqVt5peOWBlMv1Y0-89" value="User Workspace" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="170" width="240" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
