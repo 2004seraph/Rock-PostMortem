@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0" version="25.0.3">
   <diagram name="Page-1" id="nM8cbRk3KZLJgysnEEbO">
-    <mxGraphModel dx="952" dy="1697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1381" dy="1966" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -94,7 +94,7 @@
             <mxPoint x="640" y="300" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="u9vShqVt5peOWBlMv1Y0-48" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;endSize=3;startSize=3;fillColor=#d0cee2;strokeColor=#56517e;" edge="1" parent="1" target="u9vShqVt5peOWBlMv1Y0-19">
+        <mxCell id="u9vShqVt5peOWBlMv1Y0-48" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;endSize=3;startSize=3;fillColor=#cce5ff;strokeColor=#36393d;" edge="1" parent="1" target="u9vShqVt5peOWBlMv1Y0-19">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="460" y="400" as="sourcePoint" />
             <mxPoint x="560" y="300" as="targetPoint" />
@@ -106,6 +106,14 @@
         <mxCell id="u9vShqVt5peOWBlMv1Y0-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="u9vShqVt5peOWBlMv1Y0-51" target="u9vShqVt5peOWBlMv1Y0-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="u9vShqVt5peOWBlMv1Y0-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="u9vShqVt5peOWBlMv1Y0-51" target="u9vShqVt5peOWBlMv1Y0-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="510" y="260" />
+              <mxPoint x="540" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="u9vShqVt5peOWBlMv1Y0-51" value="Scene Loader" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="480" y="280" width="40" height="40" as="geometry" />
         </mxCell>
@@ -115,7 +123,7 @@
         <mxCell id="u9vShqVt5peOWBlMv1Y0-53" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;right=1;top=0;bottom=1;fillColor=#d0cee2;routingCenterX=-0.5;left=1;strokeColor=#56517e;align=center;" vertex="1" parent="1">
           <mxGeometry x="160" y="440" width="240" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="u9vShqVt5peOWBlMv1Y0-56" value="Windowing / Application Framework: Avalonia UI (Cross Platform)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+        <mxCell id="u9vShqVt5peOWBlMv1Y0-56" value="Windowing / Application Framework: Avalonia UI (Cross Platform)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=#ea6b66;" vertex="1" parent="1">
           <mxGeometry x="160" y="320" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="u9vShqVt5peOWBlMv1Y0-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="u9vShqVt5peOWBlMv1Y0-57" target="u9vShqVt5peOWBlMv1Y0-51">
@@ -126,7 +134,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="u9vShqVt5peOWBlMv1Y0-57" value="Asset Format" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="1">
+        <mxCell id="u9vShqVt5peOWBlMv1Y0-57" value="Asset Format" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" vertex="1" parent="1">
           <mxGeometry x="320" y="320" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="u9vShqVt5peOWBlMv1Y0-60" value="Two Super Systems: &quot;The Engine&quot; in its entirety" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e6d0de;gradientColor=#d5739d;strokeColor=#996185;verticalAlign=middle;fontSize=19;fontStyle=1" vertex="1" parent="1">
