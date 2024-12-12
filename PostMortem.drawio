@@ -229,7 +229,7 @@
           <mxGeometry x="-120" y="20" width="520" height="80" as="geometry" />
         </mxCell>
         <mxCell id="u9vShqVt5peOWBlMv1Y0-85" value="IDE Layer: Non-Essential Niceties the Engine &lt;i&gt;Could &lt;/i&gt;Have" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e6d0de;gradientColor=#d5739d;strokeColor=#996185;verticalAlign=middle;fontSize=19;fontStyle=1;rotation=-90;" vertex="1" parent="1">
-          <mxGeometry x="-305" y="195" width="210" height="120" as="geometry" />
+          <mxGeometry x="-282.5" y="217.5" width="210" height="75" as="geometry" />
         </mxCell>
         <mxCell id="u9vShqVt5peOWBlMv1Y0-86" value="Allow the User to step through their code, use breakpoints, etc from within their IDE to debug their game Scripts" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="-70" y="210" width="170" height="40" as="geometry" />
