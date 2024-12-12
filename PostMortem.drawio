@@ -52,11 +52,8 @@
         <mxCell id="u9vShqVt5peOWBlMv1Y0-20" value="&lt;div align=&quot;right&quot;&gt;.NET Core&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;align=right;" vertex="1" parent="1">
           <mxGeometry x="160" y="360" width="520" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="u9vShqVt5peOWBlMv1Y0-21" value="Reflection / Hook-Based Debugger" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="240" y="240" width="80" height="80" as="geometry" />
-        </mxCell>
         <mxCell id="u9vShqVt5peOWBlMv1Y0-22" value="&lt;div&gt;Visual SceneGraph Editor&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
-          <mxGeometry x="320" y="240" width="80" height="80" as="geometry" />
+          <mxGeometry x="280" y="280" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="u9vShqVt5peOWBlMv1Y0-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="u9vShqVt5peOWBlMv1Y0-32" target="u9vShqVt5peOWBlMv1Y0-49">
           <mxGeometry relative="1" as="geometry" />
@@ -103,12 +100,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="u9vShqVt5peOWBlMv1Y0-48" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;endSize=3;startSize=3;fillColor=#cce5ff;strokeColor=#36393d;" edge="1" parent="1" target="u9vShqVt5peOWBlMv1Y0-19">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="460" y="400" as="sourcePoint" />
-            <mxPoint x="560" y="300" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="u9vShqVt5peOWBlMv1Y0-49" value="&lt;div&gt;As a result, the APIs provided by the levels of the engine that we create need to be cohesive with one another, as well as with the XNA Framework, and .NET Core conventions.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Say there&#39;s a class from the game framework that works with another companion class, we need to allow the user to make use of said class, but with their own implementation of the companion class, possibly even vice versa. Every layer&#39;s classes need to be independent and modular, but for architecture purposes, we can probably exclude the &quot;Core API&quot; from this - meaning we basically end up at Unity&#39;s level of abstraction.&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="420" y="-10" width="290" height="140" as="geometry" />
         </mxCell>
@@ -126,14 +117,23 @@
         <mxCell id="u9vShqVt5peOWBlMv1Y0-51" value="Scene Loader" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="480" y="280" width="40" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="u9vShqVt5peOWBlMv1Y0-66" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="360" as="sourcePoint" />
+            <mxPoint x="560" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="180" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="u9vShqVt5peOWBlMv1Y0-52" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;right=1;top=1;bottom=0;fillColor=#d0cee2;routingCenterX=-0.5;left=1;strokeColor=#56517e;align=center;" vertex="1" parent="1">
           <mxGeometry x="160" y="400" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="u9vShqVt5peOWBlMv1Y0-53" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;right=1;top=0;bottom=1;fillColor=#d0cee2;routingCenterX=-0.5;left=1;strokeColor=#56517e;align=center;" vertex="1" parent="1">
           <mxGeometry x="160" y="440" width="240" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="u9vShqVt5peOWBlMv1Y0-56" value="Windowing / Application Framework: Avalonia UI (Cross Platform)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=#ea6b66;" vertex="1" parent="1">
-          <mxGeometry x="160" y="320" width="160" height="40" as="geometry" />
+        <mxCell id="u9vShqVt5peOWBlMv1Y0-56" value="Windowing / Application Framework: Avalonia UI &lt;b&gt;(Cross Platform)&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=#ea6b66;" vertex="1" parent="1">
+          <mxGeometry x="200" y="320" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="u9vShqVt5peOWBlMv1Y0-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="u9vShqVt5peOWBlMv1Y0-57" target="u9vShqVt5peOWBlMv1Y0-51">
           <mxGeometry relative="1" as="geometry">
@@ -144,10 +144,22 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="u9vShqVt5peOWBlMv1Y0-57" value="Asset Format" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" vertex="1" parent="1">
-          <mxGeometry x="320" y="320" width="80" height="40" as="geometry" />
+          <mxGeometry x="360" y="320" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="u9vShqVt5peOWBlMv1Y0-60" value="Two Super Systems: &quot;The Engine&quot; in its entirety" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e6d0de;gradientColor=#d5739d;strokeColor=#996185;verticalAlign=middle;fontSize=19;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="160" y="500" width="520" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="u9vShqVt5peOWBlMv1Y0-63" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;right=1;top=0;bottom=1;fillColor=#ffcccc;routingCenterX=-0.5;strokeColor=#36393d;left=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="320" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="u9vShqVt5peOWBlMv1Y0-64" value="&#xa;Reflection / Hook-Based Debugger&#xa;&#xa;" style="shape=partialRectangle;whiteSpace=wrap;html=1;right=1;top=1;bottom=0;fillColor=#ffcccc;routingCenterX=-0.5;strokeColor=#36393d;left=1;verticalAlign=middle;spacingTop=10;" vertex="1" parent="1">
+          <mxGeometry x="160" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="u9vShqVt5peOWBlMv1Y0-48" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;endSize=3;startSize=3;fillColor=#cce5ff;strokeColor=#36393d;" edge="1" parent="1" target="u9vShqVt5peOWBlMv1Y0-19">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="460" y="400" as="sourcePoint" />
+            <mxPoint x="560" y="300" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
