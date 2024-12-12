@@ -52,7 +52,7 @@
         <mxCell id="u9vShqVt5peOWBlMv1Y0-20" value="&lt;div align=&quot;right&quot;&gt;.NET Core&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;align=right;" vertex="1" parent="1">
           <mxGeometry x="160" y="360" width="520" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="u9vShqVt5peOWBlMv1Y0-22" value="&lt;div&gt;Visual SceneGraph Editor&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+        <mxCell id="u9vShqVt5peOWBlMv1Y0-22" value="&lt;div&gt;Visual SceneGraph Editor&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="280" y="280" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="u9vShqVt5peOWBlMv1Y0-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="u9vShqVt5peOWBlMv1Y0-32" target="u9vShqVt5peOWBlMv1Y0-49">
@@ -152,8 +152,8 @@
         <mxCell id="u9vShqVt5peOWBlMv1Y0-63" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;right=1;top=0;bottom=1;fillColor=#ffcccc;routingCenterX=-0.5;strokeColor=#36393d;left=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="320" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="u9vShqVt5peOWBlMv1Y0-64" value="&#xa;Reflection / Hook-Based Debugger&#xa;&#xa;" style="shape=partialRectangle;whiteSpace=wrap;html=1;right=1;top=1;bottom=0;fillColor=#ffcccc;routingCenterX=-0.5;strokeColor=#36393d;left=1;verticalAlign=middle;spacingTop=10;" vertex="1" parent="1">
-          <mxGeometry x="160" y="280" width="120" height="40" as="geometry" />
+        <mxCell id="u9vShqVt5peOWBlMv1Y0-64" value="&lt;br&gt;Debugger&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;right=1;top=1;bottom=0;fillColor=#ffcccc;routingCenterX=-0.5;strokeColor=#36393d;left=1;verticalAlign=middle;spacingTop=10;" vertex="1" parent="1">
+          <mxGeometry x="160" y="280" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="u9vShqVt5peOWBlMv1Y0-48" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;endSize=3;startSize=3;fillColor=#cce5ff;strokeColor=#36393d;" edge="1" parent="1" target="u9vShqVt5peOWBlMv1Y0-19">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
@@ -166,6 +166,12 @@
         </mxCell>
         <mxCell id="u9vShqVt5peOWBlMv1Y0-68" value="User IDE" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-120" y="160" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="u9vShqVt5peOWBlMv1Y0-69" value="MonoGame Instance (Where the logical App.cs lives for Running the Game)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+          <mxGeometry x="160" y="240" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="u9vShqVt5peOWBlMv1Y0-70" value="Content Pipeline" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="240" y="280" width="40" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
