@@ -4,6 +4,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="u9vShqVt5peOWBlMv1Y0-78" value="IDE" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="320" width="240" height="40" as="geometry" />
+        </mxCell>
         <mxCell id="u9vShqVt5peOWBlMv1Y0-67" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=12 12;strokeColor=#FF66FF;" vertex="1" parent="1">
           <mxGeometry x="-130" y="150" width="260" height="340" as="geometry" />
         </mxCell>
@@ -161,7 +164,7 @@
             <mxPoint x="560" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="u9vShqVt5peOWBlMv1Y0-68" value="User IDE" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="u9vShqVt5peOWBlMv1Y0-68" value="User Workspace" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-120" y="160" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="u9vShqVt5peOWBlMv1Y0-70" value="Content Pipeline" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;fontSize=9;" vertex="1" parent="1">
@@ -172,6 +175,16 @@
         </mxCell>
         <mxCell id="u9vShqVt5peOWBlMv1Y0-72" value="&lt;br&gt;&lt;div&gt;Visual SceneGraph Hierarchy&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;right=1;top=1;bottom=0;fillColor=#cce5ff;routingCenterX=-0.5;strokeColor=#36393d;left=1;fontSize=9;spacingTop=0;" vertex="1" parent="1">
           <mxGeometry x="340" y="240" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="u9vShqVt5peOWBlMv1Y0-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.167;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="u9vShqVt5peOWBlMv1Y0-73" target="u9vShqVt5peOWBlMv1Y0-81">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-80" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="390" y="200" />
+              <mxPoint x="390" y="110" />
+              <mxPoint x="-80" y="110" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="u9vShqVt5peOWBlMv1Y0-73" value="Project Structure Management" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="300" y="200" width="100" height="40" as="geometry" />
@@ -192,14 +205,17 @@
         <mxCell id="u9vShqVt5peOWBlMv1Y0-77" value="Tooling &amp;amp; Building" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="160" y="200" width="40" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="u9vShqVt5peOWBlMv1Y0-78" value="IDE" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;align=center;" vertex="1" parent="1">
-          <mxGeometry x="-120" y="360" width="240" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="u9vShqVt5peOWBlMv1Y0-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="u9vShqVt5peOWBlMv1Y0-79" target="u9vShqVt5peOWBlMv1Y0-63">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="u9vShqVt5peOWBlMv1Y0-79" value="IDE Debugger Plugin" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcd28;strokeColor=#d79b00;align=center;gradientColor=#ffa500;" vertex="1" parent="1">
-          <mxGeometry y="320" width="120" height="40" as="geometry" />
+          <mxGeometry y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="u9vShqVt5peOWBlMv1Y0-81" value="File System" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="360" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="u9vShqVt5peOWBlMv1Y0-84" value="V The Developer&#39;s Eyes V" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e6d0de;gradientColor=#d5739d;strokeColor=#996185;verticalAlign=middle;fontSize=19;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-120" y="20" width="520" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
