@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0" version="25.0.3">
   <diagram name="Page-1" id="nM8cbRk3KZLJgysnEEbO">
-    <mxGraphModel dx="4816" dy="2426" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1807" dy="586" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -327,8 +327,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EH3ZiSWcD8K-tM8Clu79-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Constellation - Monorepo tool based around managing git submodules&lt;br&gt;&lt;/h1&gt;&lt;ul&gt;&lt;li&gt;Constellation.toml&lt;/li&gt;&lt;li&gt;constw&lt;/li&gt;&lt;ul&gt;&lt;li&gt;prompt before install&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;constw.bat&lt;br&gt;&lt;/li&gt;&lt;li&gt;BUILD.bazel&lt;br&gt;&lt;/li&gt;&lt;li&gt;project-1&lt;/li&gt;&lt;li&gt;library-1&lt;/li&gt;&lt;/ul&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;Rust&lt;/li&gt;&lt;li&gt;Monorepo manager, with a focus on wrapping git submodules and making them less annoying to work with&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Manage symlinks from libraries to dependant projects&lt;/li&gt;&lt;ul&gt;&lt;li&gt;CRUD Interface&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/ul&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="1275" y="70" width="390" height="400" as="geometry" />
+        <mxCell id="EH3ZiSWcD8K-tM8Clu79-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Constellation - Monorepo tool based around managing git submodules&lt;br&gt;&lt;/h1&gt;&lt;ul&gt;&lt;li&gt;Constellation.lock&lt;/li&gt;&lt;li&gt;conw&lt;/li&gt;&lt;ul&gt;&lt;li&gt;prompt before install&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;conw.bat&lt;br&gt;&lt;/li&gt;&lt;li&gt;BUILD.bazel&lt;br&gt;&lt;/li&gt;&lt;li&gt;project-1/&lt;/li&gt;&lt;li&gt;library-1/&lt;/li&gt;&lt;li&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;Rust CLI tool, maybe ncurses gui too&lt;/li&gt;&lt;li&gt;~ $ con init&lt;/li&gt;&lt;li&gt;~ $ ./conw install github.com/ContrabandSoftware/State&lt;/li&gt;&lt;li&gt;~ $ con &lt;br&gt;&lt;/li&gt;&lt;li&gt;Monorepo manager, with a focus on wrapping git submodules and making them less annoying to work with&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Manage symlinks from libraries to dependant projects&lt;/li&gt;&lt;ul&gt;&lt;li&gt;CRUD Interface&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;li&gt;Allows for&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1275" y="70" width="385" height="500" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
