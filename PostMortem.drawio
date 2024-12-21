@@ -4,6 +4,15 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="XX31TeLacHxGI7LZWYi0-32" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;fillColor=#a20025;strokeColor=#6F0000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="960" y="1840" as="sourcePoint" />
+            <mxPoint x="1160" y="1520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1160" y="1840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="XX31TeLacHxGI7LZWYi0-25" value="&lt;div&gt;Small-To-Medium-To-Large&lt;/div&gt;&lt;div&gt;Game Projects&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;align=right;horizontal=1;verticalAlign=top;fontSize=30;" vertex="1" parent="1">
           <mxGeometry x="-140" y="1220" width="1070" height="280" as="geometry" />
         </mxCell>
@@ -424,6 +433,9 @@
         </mxCell>
         <mxCell id="XX31TeLacHxGI7LZWYi0-31" value="Does its own thing entirely" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="302" y="1530" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="XX31TeLacHxGI7LZWYi0-33" value="The goal of MK3 is to provide both an editor and a game engine framework, built on top of pure .NET Core, in order to extend MonoGame up to and beyond Godot. " style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="1520" width="180" height="220" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
