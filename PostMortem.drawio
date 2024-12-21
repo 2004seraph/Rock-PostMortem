@@ -410,7 +410,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="XX31TeLacHxGI7LZWYi0-27" value="Not based on .NET, but has a C# scripting backend, like Unity" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="XX31TeLacHxGI7LZWYi0-27" value="Not based on .NET, but has a C# scripting backend, like Unity" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="792" y="1530" width="128" height="110" as="geometry" />
         </mxCell>
         <mxCell id="XX31TeLacHxGI7LZWYi0-28" value="Stride approaches Unreal Engine in terms of features and scale, this is beyond our niche." style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
