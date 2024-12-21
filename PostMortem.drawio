@@ -415,7 +415,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XX31TeLacHxGI7LZWYi0-26" value="Built on top of MonoGame" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=15;startSize=8;endSize=13.259259259259258;curved=1;fillColor=#fa6800;strokeColor=#C73500;endWidth=29.272976680384087;width=21.48148148148148;fontStyle=1" edge="1" parent="1">
+        <mxCell id="XX31TeLacHxGI7LZWYi0-26" value="&lt;div&gt;Built on top&amp;nbsp;&lt;/div&gt;&lt;div&gt;of MonoGame&lt;/div&gt;" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=15;startSize=8;endSize=13.259259259259258;curved=1;fillColor=#fa6800;strokeColor=#C73500;endWidth=29.272976680384087;width=21.48148148148148;fontStyle=1" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="470" y="1840" as="sourcePoint" />
             <mxPoint x="470" y="1750" as="targetPoint" />
@@ -435,7 +435,7 @@
           <mxGeometry x="-110" y="1072" width="152.5" height="140" as="geometry" />
         </mxCell>
         <mxCell id="XX31TeLacHxGI7LZWYi0-30" value="Far too rudimentary for quickly iterating on a medium-sized game project" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" vertex="1" parent="1">
-          <mxGeometry x="100" y="1710" width="160" height="180" as="geometry" />
+          <mxGeometry x="160" y="1710" width="160" height="180" as="geometry" />
         </mxCell>
         <mxCell id="XX31TeLacHxGI7LZWYi0-31" value="&lt;div&gt;Does its own thing entirely, targets small projects.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;It is however much more sophisticated than MonoGame due to having its own editor&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=right;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=17;" vertex="1" parent="1">
           <mxGeometry x="180" y="1520" width="282" height="140" as="geometry" />
