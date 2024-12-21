@@ -400,7 +400,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XX31TeLacHxGI7LZWYi0-26" value="Built on top of MonoGame" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=13.259259259259258;curved=1;fillColor=#ffe6cc;strokeColor=#d79b00;endWidth=29.272976680384087;width=21.48148148148148;" edge="1" parent="1">
+        <mxCell id="XX31TeLacHxGI7LZWYi0-26" value="Built on top of MonoGame" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=15;startSize=8;endSize=13.259259259259258;curved=1;fillColor=#ffe6cc;strokeColor=#d79b00;endWidth=29.272976680384087;width=21.48148148148148;fontStyle=1" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="470" y="1840" as="sourcePoint" />
             <mxPoint x="470" y="1750" as="targetPoint" />
