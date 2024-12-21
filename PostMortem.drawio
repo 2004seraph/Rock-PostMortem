@@ -408,7 +408,7 @@
         <mxCell id="XX31TeLacHxGI7LZWYi0-21" value="Closed Source" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=5" vertex="1" parent="1">
           <mxGeometry x="172" y="1010" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="XX31TeLacHxGI7LZWYi0-23" value="&lt;div&gt;Complexity&lt;/div&gt;&lt;div&gt;&amp;amp;&lt;/div&gt;&lt;div&gt;Scale&lt;br&gt;&lt;/div&gt;" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=25;startSize=8;endSize=25.893333333333334;curved=1;fillColor=#f8cecc;strokeColor=#b85450;endWidth=57.333333333333336;width=38.666666666666664;" edge="1" parent="1">
+        <mxCell id="XX31TeLacHxGI7LZWYi0-23" value="&lt;div&gt;Complexity,&lt;/div&gt;&lt;div&gt;Features&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;amp; Scale&lt;br&gt;&lt;/div&gt;" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=25;startSize=8;endSize=25.893333333333334;curved=1;fillColor=#f8cecc;strokeColor=#b85450;endWidth=57.333333333333336;width=38.666666666666664;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1040" y="1890" as="sourcePoint" />
             <mxPoint x="1040" y="1010" as="targetPoint" />
