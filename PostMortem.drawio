@@ -515,7 +515,7 @@
         <mxCell id="_M4Kn9Dsuwb7jiWKYopz-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fillColor=#008a00;strokeColor=#005700;" edge="1" parent="1" source="_M4Kn9Dsuwb7jiWKYopz-21" target="_M4Kn9Dsuwb7jiWKYopz-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_M4Kn9Dsuwb7jiWKYopz-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fillColor=#008a00;strokeColor=#005700;" edge="1" parent="1" source="_M4Kn9Dsuwb7jiWKYopz-21" target="_M4Kn9Dsuwb7jiWKYopz-8">
+        <mxCell id="_M4Kn9Dsuwb7jiWKYopz-23" value="&lt;div&gt;Weak&lt;/div&gt;&lt;div&gt;Reference&lt;br&gt;&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fillColor=#008a00;strokeColor=#005700;fontSize=6;" edge="1" parent="1" source="_M4Kn9Dsuwb7jiWKYopz-21" target="_M4Kn9Dsuwb7jiWKYopz-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_M4Kn9Dsuwb7jiWKYopz-21" value="Behaviour1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
