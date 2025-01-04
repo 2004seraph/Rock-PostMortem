@@ -434,7 +434,7 @@
         <mxCell id="XX31TeLacHxGI7LZWYi0-29" value="&lt;div&gt;These engines are targeted towards industrial and simulation uses, not good for &lt;i&gt;game &lt;/i&gt;dev.&lt;/div&gt;&lt;div&gt;(We do not need ROS2 interop)&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=right;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="-110" y="1072" width="152.5" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="XX31TeLacHxGI7LZWYi0-30" value="Lots of boilerplate required" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" parent="1" vertex="1">
+        <mxCell id="XX31TeLacHxGI7LZWYi0-30" value="&lt;div&gt;Lots of boilerplate required,&lt;/div&gt;&lt;div&gt;but basically like SDL2 for games&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" parent="1" vertex="1">
           <mxGeometry x="172" y="1710" width="160" height="180" as="geometry" />
         </mxCell>
         <mxCell id="XX31TeLacHxGI7LZWYi0-31" value="&lt;div&gt;Does its own thing entirely, targets small to medium projects for the most part.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;It is much more sophisticated than MonoGame due to having its own editor&lt;br&gt;&lt;/div&gt;&amp;nbsp;and first-class 3D support" style="text;html=1;align=right;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=17;" parent="1" vertex="1">
