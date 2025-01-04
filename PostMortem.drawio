@@ -437,8 +437,8 @@
         <mxCell id="XX31TeLacHxGI7LZWYi0-30" value="Far too rudimentary for quickly iterating on a medium-sized game project" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" parent="1" vertex="1">
           <mxGeometry x="172" y="1710" width="160" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="XX31TeLacHxGI7LZWYi0-31" value="&lt;div&gt;Does its own thing entirely, targets small projects.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;It is however much more sophisticated than MonoGame due to having its own editor&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=right;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=17;" parent="1" vertex="1">
-          <mxGeometry x="180" y="1520" width="282" height="140" as="geometry" />
+        <mxCell id="XX31TeLacHxGI7LZWYi0-31" value="&lt;div&gt;Does its own thing entirely, targets small to medium projects for the most part.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;It is much more sophisticated than MonoGame due to having its own editor&lt;br&gt;&lt;/div&gt;&amp;nbsp;and first-class 3D support" style="text;html=1;align=right;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=17;" parent="1" vertex="1">
+          <mxGeometry x="180" y="1520" width="282" height="170" as="geometry" />
         </mxCell>
         <mxCell id="XX31TeLacHxGI7LZWYi0-33" value="&lt;div&gt;The goal of MK3 is to provide both an editor and a game engine framework, built on top of pure .NET Core, in order to extend MonoGame up to and beyond Godot. &lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;This is potentially pretty powerful, because many production quality games are written on MonoGame, for every platform. This includes consoles and mobile.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;https://monogame.net/showcase/&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=19;" parent="1" vertex="1">
           <mxGeometry x="1185" y="1490" width="180" height="540" as="geometry" />
@@ -522,7 +522,10 @@
           <mxGeometry x="1360" y="280" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="az-KlxDo-O7zIigkWocO-1" value="&lt;div&gt;Can use novel designs like an ECS&lt;/div&gt;&lt;div&gt;Systems, Entities and components can be defined by c# annotations like in this video:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;https://www.youtube.com/watch?v=FiSXUFLz8mY&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="1220" y="1240" width="400" height="210" as="geometry" />
+          <mxGeometry x="1390" y="1270" width="400" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="az-KlxDo-O7zIigkWocO-2" value="&lt;div&gt;The Niche:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;An engine attempting experimental and aggressive optimizations, to ensure a very compact memory footprint. Targetted towards lower end hardware.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;To be entirely based on .NET&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;To wrap around and integrate with the monogame framework, providing a strong, mature base that other devs will be familiar with.&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Works similarly to the android ecosystem in that it does not invent its own build system, rather piggybacking / wrapping that of the underlying runtime. In this case, dotnet. What this means is very easy and flexible tooling, compared to that of Unity, with all it&#39;s black-box idiosyncrasies that require it to be containerized by the community to be useful for stuff like CI.&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="920" width="260" height="540" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
